@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+###Spring Configs
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  redis:
+    host: rahit-tweet-app-redis.redis.cache.windows.net ##localhost
+    port: 6379 ##change port accordingly
+    password: AVQgMmTo2CsbIU6mPZadDD7q0JL7DV6UqAzCaBa024w=
